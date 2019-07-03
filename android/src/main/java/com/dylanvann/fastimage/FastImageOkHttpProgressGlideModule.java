@@ -1,6 +1,8 @@
 package com.dylanvann.fastimage;
 
 import android.content.Context;
+import android.os.Handler;
+import android.os.Looper;
 import androidx.annotation.NonNull;
 
 import com.bumptech.glide.Glide;

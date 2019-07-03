@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-#import <SDWebImage/UIImageView+WebCache.h>
+#import <SDWebImage/SDAnimatedImageView+WebCache.h>
 #import <SDWebImage/SDWebImageDownloader.h>
 
 // Import from the FLAnimated image CocoaPod if it's available.
@@ -16,7 +16,7 @@
 
 #import "FFFastImageSource.h"
 
-@interface FFFastImageView : FLAnimatedImageView
+@interface FFFastImageView : SDAnimatedImageView
 
 @property (nonatomic, copy) RCTDirectEventBlock onFastImageLoadStart;
 @property (nonatomic, copy) RCTDirectEventBlock onFastImageProgress;
